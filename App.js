@@ -16,7 +16,7 @@ const winningPatterns = [
 
 buttons.forEach((btn) =>{
     btn.addEventListener("click", () => {
-        
-    }
-
+        if(playerTurnO){
+            btn.inn
+    })
 })
