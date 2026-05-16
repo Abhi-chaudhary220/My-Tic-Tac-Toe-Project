@@ -35,3 +35,11 @@ body{
     background-color: bisque;
     color: rgb(0, 103, 182);
 }
+
+.Reset{
+    background-color: rgb(54, 49, 49);
+    color: beige;
+    padding: 1vmin;
+    border-radius: 1.2vmin;
+    border: none;
+}
