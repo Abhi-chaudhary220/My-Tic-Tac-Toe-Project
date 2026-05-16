@@ -14,4 +14,9 @@ const winningPatterns = [
     [2, 4, 6],
 ];
 
-buttons.forEach((btn))
+buttons.forEach((btn) =>{
+    btn.addEventListener("click", () => {
+        
+    }
+
+})
