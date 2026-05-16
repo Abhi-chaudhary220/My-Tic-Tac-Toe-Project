@@ -5,11 +5,14 @@
 
 body{
     background-color: rgb(104, 20, 20);
+    text-align: center;
     
 }
 .container{
     height: 70vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     }
 
@@ -20,6 +23,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 1.2vmin;
 }
 
 .btn{
