@@ -14,11 +14,4 @@ const winningPatterns = [
     [2, 4, 6],
 ];
 
-btn.forEach(element => {"click" () => {
-    if (playerTurnO) {
-        element.innerText = "x";
-        playerTurnO = false;
-    }
-}
-    
-});
+buttons.forEach((btn))
