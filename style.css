@@ -29,4 +29,9 @@ body{
 .btn{
     height: 18vmin;
     width: 18vmin;
+    border-radius: 1vmin;
+    border: none;
+    font-size: 8vmin;
+    background-color: bisque;
+    color: rgb(0, 103, 182);
 }
