@@ -3,6 +3,8 @@ const resetBtn = document.querySelector(".Reset");
 
 let playerTurnO = true;
 
+// Calculating WinningPatterns. 
+
 const winningPatterns = [
     [0, 1, 2],
     [3, 4, 5],
