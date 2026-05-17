@@ -30,6 +30,14 @@ buttons.forEach((btn) =>{
             btn.innerText = "X";
             playerTurnO = true;
         }
+        btn.disabled = true;
 
+        winner();
     })
-})
+});
+
+const winner = () => {
+    for(let pattern of winningPatterns){
+        console.log(buttons[pattern[0]].innerText);
+    }
+}
