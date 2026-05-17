@@ -49,3 +49,5 @@ const winner = () => {
         }
     }
 };
+
+// pattern se pta lgega total pattern kitne h.
