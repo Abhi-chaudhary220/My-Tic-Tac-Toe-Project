@@ -58,3 +58,4 @@ const winner = () => {
 // now have to build winner announcement message container.
 // also build new game button.
 // also style new game button.
+// makes button responsive.
