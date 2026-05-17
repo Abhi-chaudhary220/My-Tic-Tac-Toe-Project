@@ -51,3 +51,4 @@ const winner = () => {
 };
 
 // pattern se pta lgega total pattern kitne h.
+// pattern[0] , patterm[1] se pta lgta h k uss position k uss position me ane vale total patterns kitne h.
