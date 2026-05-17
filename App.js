@@ -23,7 +23,7 @@ const winningPatterns = [
 buttons.forEach((btn) =>{
     btn.addEventListener("click", () => {
         if(playerTurnO){
-            btn.innerText = "O";
+            btn.innerText = "0";
             playerTurnO = false;
         }
         else{
@@ -38,7 +38,14 @@ buttons.forEach((btn) =>{
 
 const winner = () => {
     for(let pattern of winningPatterns){
-        console.log(pattern[0], pattern[1], pattern[2]);
-        
+        let position1 = buttons[pattern[0]].innerText;
+        let position2 = buttons[pattern[1]].innerText;
+        let position3 = buttons[pattern[2]].innerText;
+
+        if(position1 != "" && position2 != "" && position3 != ""){
+            if(position1 == position2 && position2 == position3){
+                console.log("Winner",position1);
+            }
+        }
     }
-}
+};
