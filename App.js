@@ -57,3 +57,4 @@ const winner = () => {
 // == for checking every position is full and equal
 // now have to build winner announcement message container.
 // also build new game button.
+// also style new game button.
