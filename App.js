@@ -53,3 +53,4 @@ const winner = () => {
 // pattern se pta lgega total pattern kitne h.
 // pattern[0] , patterm[1] se pta lgta h k uss position k uss position me ane vale total patterns kitne h.
 // winner() se pta lgta h k jb bhi ek button pe click kia jayega to vo button function ko call krega for checking winner.
+// != se pta lgta h k koi bhi position khali na ho.
