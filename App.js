@@ -1,7 +1,12 @@
 // Accessing by query methods.
 
-const buttons = document.querySelectorAll(".btn");
-const resetBtn = document.querySelector(".Reset");
+let buttons = document.querySelectorAll(".btn");
+let resetBtn = document.querySelector(".Reset");
+let newGameBtn = document.querySelector("#new-btn");
+let msgContainer = document.querySelector(".msg-container"); 
+// Niche jo phle announcer undefined arha tha vo isliye arha tha because maine yha jis name se variable bna rkha tha usse main vha access nhi kr rha tha
+let msg = document.querySelector("#msg");
+
 
 let playerTurnO = true;
 
@@ -45,10 +50,16 @@ const winner = () => {
         if(position1 != "" && position2 != "" && position3 != ""){
             if(position1 == position2 && position2 == position3){
                 console.log("Winner",position1);
+                showWinner(position1);
             }
         }
     }
 };
+
+const showWinner = (winner) => {
+    msg.innerText = `Congrats Winner is ${winner}`;
+    msgContainer.classList.remove("hide");
+}
 
 // pattern se pta lgega total pattern kitne h.
 // pattern[0] , patterm[1] se pta lgta h k uss position k uss position me ane vale total patterns kitne h.

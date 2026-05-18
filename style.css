@@ -45,7 +45,7 @@ body{
 }
 
 #new-btn{
-    background-color: rgb(54, 49, 49);
+    background-color: rgb(201, 211, 0);
     color: beige;
     padding: 1vmin;
     border-radius: 1.2vmin;
@@ -58,7 +58,7 @@ body{
 }
 
 .msg-container{
-    height: 30vmin;
+    height: 16vmin;
 }
 .hide{
     display: none;
