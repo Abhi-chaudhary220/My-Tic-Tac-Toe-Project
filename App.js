@@ -54,7 +54,7 @@ const winner = () => {
 
         if(position1 != "" && position2 != "" && position3 != ""){
             if(position1 == position2 && position2 == position3){
-                console.log("Winner",position1);
+                console.log("winner",position1);
                 showWinner(position1);
             }
         }
