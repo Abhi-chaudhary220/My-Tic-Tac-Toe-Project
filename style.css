@@ -44,7 +44,7 @@ body{
     border: none;
 }
 
-.NewGameBtn{
+#NewGameBtn{
     background-color: rgb(221, 181, 0);
     color: beige;
     padding: 1vmin;
@@ -52,14 +52,14 @@ body{
     border: none;
 }
 
-.Announcer{
+#msg{
     color: beige;
     font-size: 8vmin;
-    margin-top: 1.5vmin;
+    /* margin-top: 1.5vmin; */
 
 }
 
-.winner{
+.msg-container{
     height: 16vmin;
 }
 

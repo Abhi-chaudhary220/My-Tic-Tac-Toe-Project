@@ -3,7 +3,8 @@
 const buttons = document.querySelectorAll(".btn");
 const resetBtn = document.querySelector(".Reset");
 const newGameBtn = document.querySelector(".NewGameBtn");
-const winnerAnnouncer = document.querySelector(".Winner")
+const winnerAnnouncer = document.querySelector(".Winner");
+const announcerPara = document.querySelector(".Announcer");
 
 let playerTurnO = true;
 
@@ -38,6 +39,13 @@ buttons.forEach((btn) =>{
     });
 });
 
+const showWinner = (winner) => {
+    Announcer.innerText = `Congrats winner is $(winner)`;
+    winner.classList.remove("hide");
+}
+
+
+
 const winner = () => {
     for(let pattern of winningPatterns){
         let position1 = buttons[pattern[0]].innerText;
@@ -47,10 +55,15 @@ const winner = () => {
         if(position1 != "" && position2 != "" && position3 != ""){
             if(position1 == position2 && position2 == position3){
                 console.log("Winner",position1);
+                showWinner(position1);
             }
         }
     }
 };
+
+
+
+
 
 // pattern se pta lgega total pattern kitne h.
 // pattern[0] , patterm[1] se pta lgta h k uss position k uss position me ane vale total patterns kitne h.
