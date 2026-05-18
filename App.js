@@ -40,9 +40,9 @@ buttons.forEach((btn) =>{
 });
 
 const showWinner = (winner) => {
-    Announcer.innerText = `Congrats winner is $(winner)`;
-    winner.classList.remove("hide");
-}
+    msg.innerText = `Congrats winner is $(winner)`;
+    msgContainer.classList.remove("hide");
+};
 
 
 
