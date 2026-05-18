@@ -43,3 +43,20 @@ body{
     border-radius: 1.2vmin;
     border: none;
 }
+
+#new-btn{
+    background-color: rgb(54, 49, 49);
+    color: beige;
+    padding: 1vmin;
+    border-radius: 1.2vmin;
+    border: none;
+}
+
+#msg{
+    color: antiquewhite;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 30vmin;
+}
