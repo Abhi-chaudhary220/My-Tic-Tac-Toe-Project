@@ -2,6 +2,8 @@
 
 const buttons = document.querySelectorAll(".btn");
 const resetBtn = document.querySelector(".Reset");
+const newGameBtn = document.querySelector(".NewGameBtn");
+
 
 let playerTurnO = true;
 

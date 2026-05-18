@@ -62,3 +62,7 @@ body{
 .winner{
     height: 16vmin;
 }
+
+.hide{
+    display: none;
+}
