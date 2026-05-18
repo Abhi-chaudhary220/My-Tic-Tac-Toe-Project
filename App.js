@@ -39,8 +39,8 @@ buttons.forEach((btn) =>{
     });
 });
 
-const showWinner = (winner) => {
-    msg.innerText = `Congrats winner is $(winner)`;
+const showWinner = (winners) => {
+    msg.innerText = `Congrats,  Winner is $(winner)`;
     msgContainer.classList.remove("hide");
 };
 
@@ -53,8 +53,8 @@ const winner = () => {
         let position3 = buttons[pattern[2]].innerText;
 
         if(position1 != "" && position2 != "" && position3 != ""){
-            if(position1 == position2 && position2 == position3){
-                console.log("winner",position1);
+        if(position1 === position2 && position2 === position3){
+                console.log("Winner",position1);
                 showWinner(position1);
             }
         }
