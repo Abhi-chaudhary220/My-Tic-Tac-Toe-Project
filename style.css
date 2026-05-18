@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(104, 20, 20);
+    background-color: rgb(205, 90, 90);
     text-align: center;
     
 }
@@ -42,4 +42,17 @@ body{
     padding: 1vmin;
     border-radius: 1.2vmin;
     border: none;
+}
+
+.NewGameBtn{
+    background-color: rgb(221, 181, 0);
+    color: beige;
+    padding: 1vmin;
+    border-radius: 1.2vmin;
+    border: none;
+}
+
+.Announcer{
+    height: 8vmin;
+
 }

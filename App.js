@@ -23,7 +23,7 @@ const winningPatterns = [
 buttons.forEach((btn) =>{
     btn.addEventListener("click", () => {
         if(playerTurnO){
-            btn.innerText = "0";
+            btn.innerText = "O";
             playerTurnO = false;
         }
         else{
@@ -59,3 +59,5 @@ const winner = () => {
 // also build new game button.
 // also style new game button.
 // makes button responsive.
+
+
