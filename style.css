@@ -53,6 +53,12 @@ body{
 }
 
 .Announcer{
-    height: 8vmin;
+    color: beige;
+    font-size: 8vmin;
+    margin-top: 1.5vmin;
 
+}
+
+.winner{
+    height: 16vmin;
 }
