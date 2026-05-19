@@ -73,4 +73,4 @@ const showWinner = (winner) => {
 // Iss game me button click pe O ya X print hoga.
 // click krne pe jo symbol aaega uske next pe turn second player ki hogi.
 // hrr btn ko lock krne k liye btn disabled property use kia hu.
-
+// hrr btn ko click krne k baad winner kon hoga iska liye winner function bnaya hu.
