@@ -70,3 +70,4 @@ const showWinner = (winner) => {
 // also build new game button.
 // also style new game button.
 // makes button responsive.
+// Iss game me button click pe O ya X print hoga.
