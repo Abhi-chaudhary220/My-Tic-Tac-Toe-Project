@@ -75,3 +75,4 @@ const showWinner = (winner) => {
 // hrr btn ko lock krne k liye btn disabled property use kia hu.
 // hrr btn ko click krne k baad winner kon hoga iska liye winner function bnaya hu.
 // fir uss winner function me for of loop use kia.
+// loop se usme se winnerpatterns nikala.
