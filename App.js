@@ -72,3 +72,5 @@ const showWinner = (winner) => {
 // makes button responsive.
 // Iss game me button click pe O ya X print hoga.
 // click krne pe jo symbol aaega uske next pe turn second player ki hogi.
+// hrr btn ko lock krne k liye btn disabled property use kia hu.
+
