@@ -42,6 +42,7 @@ buttons.forEach((btn) =>{
 });
 
 const winner = () => {
+    // loop se usme se winnerpatterns nikala
     for(let pattern of winningPatterns){
         let position1 = buttons[pattern[0]].innerText;
         let position2 = buttons[pattern[1]].innerText;
@@ -81,4 +82,4 @@ const showWinner = (winner) => {
 
 
 
-// loop se usme se winnerpatterns nikala.
+
