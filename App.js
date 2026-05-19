@@ -74,3 +74,4 @@ const showWinner = (winner) => {
 // click krne pe jo symbol aaega uske next pe turn second player ki hogi.
 // hrr btn ko lock krne k liye btn disabled property use kia hu.
 // hrr btn ko click krne k baad winner kon hoga iska liye winner function bnaya hu.
+// fir uss winner function me for of loop use kia.
