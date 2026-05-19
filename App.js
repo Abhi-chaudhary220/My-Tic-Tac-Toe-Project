@@ -81,4 +81,4 @@ const showWinner = (winner) => {
 
 
 
-loop se usme se winnerpatterns nikala
+// loop se usme se winnerpatterns nikala.
