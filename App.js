@@ -71,3 +71,4 @@ const showWinner = (winner) => {
 // also style new game button.
 // makes button responsive.
 // Iss game me button click pe O ya X print hoga.
+// click krne pe jo symbol aaega uske next pe turn second player ki hogi.
