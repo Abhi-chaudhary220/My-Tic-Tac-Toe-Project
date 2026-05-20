@@ -41,6 +41,8 @@ buttons.forEach((btn) =>{
     });
 });
 
+
+
 const winner = () => {
     // loop se usme se winnerpatterns nikala
     for(let pattern of winningPatterns){
@@ -50,16 +52,30 @@ const winner = () => {
 
         if(position1 != "" && position2 != "" && position3 != ""){
             if(position1 == position2 && position2 == position3){
-                console.log("Winner",position1);
+                // console.log("Winner",position1);
                 showWinner(position1);
             }
         }
     }
 };
 
+const disableBtn = () => {
+    for (let btn of buttons) {
+        btn.disabled = true;
+    }
+    };
+
+    const enableBtn = () => {
+    for (let btn of buttons) {
+        btn.disabled = false;
+        btn.innerText = "";
+    }
+    };
+
 const showWinner = (winner) => {
     msg.innerText = `Congrats Winner is ${winner}`;
     msgContainer.classList.remove("hide");
+    disableBtn();
 }
 
 // pattern se pta lgega total pattern kitne h.
@@ -77,6 +93,15 @@ const showWinner = (winner) => {
 // hrr btn ko click krne k baad winner kon hoga iska liye winner function bnaya hu.
 // fir uss winner function me for of loop use kia.
 // loop se usme se winnerpatterns nikala.
+
+const resetGame = () => {
+    turnO = true;
+    enableBtn();
+    msgContainer.classList.add("hide");
+};
+
+newGameBtn.addEventListener("click", resetGame);
+resetBtn.addEventListener("click", resetGame);
 
 
 
