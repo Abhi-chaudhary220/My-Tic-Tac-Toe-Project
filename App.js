@@ -34,6 +34,7 @@ buttons.forEach((btn) =>{
         else{
             btn.innerText = "X";
             playerTurnO = true;
+            btn.style.color = "green";
         }
         btn.disabled = true;
 
