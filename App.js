@@ -99,6 +99,7 @@ const resetGame = () => {
     msgContainer.classList.add("hide");
 };
 
+newGameBtn.addEventListener("click", resetGame);
 
 
 
