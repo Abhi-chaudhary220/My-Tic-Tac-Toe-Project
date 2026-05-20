@@ -4,9 +4,13 @@
 }
 
 body{
-    background-color: rgb(104, 20, 20);
+    background-color: rgb(27, 113, 119);
     text-align: center;
     
+}
+
+h1{
+    color: rgb(14, 62, 7);
 }
 .container{
     height: 70vh;
@@ -37,7 +41,7 @@ body{
 }
 
 .Reset{
-    background-color: rgb(54, 49, 49);
+    background-color: rgb(146, 5, 5);
     color: beige;
     padding: 1vmin;
     border-radius: 1.2vmin;
@@ -45,7 +49,7 @@ body{
 }
 
 #new-btn{
-    background-color: rgb(201, 211, 0);
+    background-color: rgb(170, 31, 107);
     color: beige;
     padding: 1vmin;
     border-radius: 1.2vmin;
@@ -53,7 +57,7 @@ body{
 }
 
 #msg{
-    color: antiquewhite;
+    color: rgb(225, 215, 25);
     font-size: 8vmin;
 }
 
